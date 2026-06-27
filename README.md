@@ -18,9 +18,10 @@ Initially, logged in as the root administrator on the AlmaLinux host, a secure k
 <img width="767" height="438" alt="Screenshot_1" src="https://github.com/user-attachments/assets/e441d492-5d09-4d7a-b4a7-2519f60dd288" />
 </br>
 4. Navigate to the hidden `.ssh` directory and verify that both the private and public key files have been created successfully.
+</br>
 <img width="506" height="87" alt="Screenshot_2" src="https://github.com/user-attachments/assets/51e88690-1bc9-4780-b8f3-ffc0aab6c01b" />
 </br>
-5. View the raw content of the private key using the `cat` command.
+6. View the raw content of the private key using the `cat` command.
 <img width="640" height="662" alt="Screenshot_3" src="https://github.com/user-attachments/assets/87217f1e-adef-4ebd-9ab0-07c22dab9e9d" />
 <img width="1362" height="102" alt="Screenshot_4" src="https://github.com/user-attachments/assets/6ebf787b-3851-4317-8255-a2faf2657e99" />
 
@@ -30,7 +31,7 @@ Initially, logged in as the root administrator on the AlmaLinux host, a secure k
 
 To establish a remote connection from a local workstation, the private cryptographic token must be securely mapped onto the local Windows machine.
 
-1. Open Windows PowerShell as an **Administrator**, navigate to the root drive, and utilize the `nano` editor to recreate the file.
+1. Open Windows PowerShell as an **Administrator**, navigate to the 'C' drive, and utilize the `nano` editor to recreate the file.
 <img width="643" height="232" alt="Screenshot_5" src="https://github.com/user-attachments/assets/de6e88bf-ad4d-42ba-b1ec-d70641cba0b0" />
 </br>
 2. Paste the exact cryptographic token block into the editor and save it.
