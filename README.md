@@ -52,6 +52,7 @@ To establish a remote connection from a local workstation, the private cryptogra
 <img width="682" height="362" alt="Screenshot_7" src="https://github.com/user-attachments/assets/2a80408d-5590-45b5-95db-972a6b1ded1b" />
 </br>
 4. **Securing the Key File (Windows ACL Hardening):** Open PowerShell as an Administrator and execute Windows Access Control List (`icacls`) commands to strip inherited permissions and grant explicit Read/Write access only to your active Windows profile user (`$env:USERNAME`). This prevents SSH key rejection errors due to overly permissive access controls.
+</br>
 <img width="485" height="98" alt="Screenshot_24" src="https://github.com/user-attachments/assets/869bc3ec-59a2-4d50-b2d7-8332873c5ff6" />
 <img width="536" height="94" alt="Screenshot_23" src="https://github.com/user-attachments/assets/32d3aec2-e18d-40d5-8312-364c7fb50d4a" />
 
